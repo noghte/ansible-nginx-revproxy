@@ -31,21 +31,21 @@
   when:
     - ansible_python['version']['major'] == 3
 
-- name: Install python-passlib for Python 2 hosts
-  apt:
-    name:
-      - "python-passlib"
-    state: present
-  register:
-    result
-  delay: 10
-  retries: 12
-  until: result is successful
-  tags:
-    - nginxrevproxy
-    - packages
-  when:
-    - ansible_python['version']['major'] == 2
+# - name: Install python-passlib for Python 2 hosts
+#   apt:
+#     name:
+#       - "python-passlib"
+#     state: present
+#   register:
+#     result
+#   delay: 10
+#   retries: 12
+#   until: result is successful
+#   tags:
+#     - nginxrevproxy
+#     - packages
+#   when:
+#     - ansible_python['version']['major'] == 2
 
 - name: Set up nginx directories
   file:
