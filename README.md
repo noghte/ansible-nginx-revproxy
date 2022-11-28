@@ -14,13 +14,6 @@ This ansible role is a fork from [pkchuyen's ansible-nginx-revproxy](https://git
 - Install: `ansible-galaxy role install git+https://github.com/noghte/ansible-nginx-revproxy.git`
   > _To **uninstall** the role: `ansible-galaxy remove ansible-nginx-revproxy`_
 
-Install and configures Nginx as reverse proxy for multiple website.
-
-|GitHub|Quality|Downloads|Galaxy|Version|
-|------|-------|---------|-------|-------|
-|[![CI](https://github.com/noghte/ansible-role-nginx_revproxy/actions/workflows/ci.yml/badge.svg)](https://github.com/noghte/ansible-role-nginx_revproxy/actions/workflows/ci.yml)|[![quality](https://img.shields.io/ansible/quality/53382)](https://galaxy.ansible.com/noghte/nginx_revproxy)|[![downloads](https://img.shields.io/ansible/role/d/53382)](https://galaxy.ansible.com/noghte/nginx_revproxy)|[![Galaxy](https://img.shields.io/badge/galaxy-noghte.nginx_revproxy-blue.svg)](https://galaxy.ansible.com/noghte/nginx_revproxy)|[![Version](https://img.shields.io/github/release/noghte/ansible-role-nginx_revproxy.svg)](https://github.com/noghte/ansible-role-nginx_revproxy/releases/)|
-
-
 
 Example Playbook
 ----------------
@@ -54,4 +47,4 @@ Licensed under the GPLv3 License. See the LICENSE file for details.
 Author Information
 ------------------
 
-Hispanico
+Hispanico (modified by `pkchuyen` and `noghte`)
